@@ -646,7 +646,7 @@ def stock_update_ui(organization):
     st.markdown("---")
     
     # Kids Section
-    st.subheader("👶 Kids T-Shirts")
+    st.subheader(" Kids T-Shirts")
     st.write("")
     
     for size in KIDS_SIZES:
@@ -1057,5 +1057,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
