@@ -1,11 +1,10 @@
 import streamlit as st
-
+from supabase import create_client, Client
 import pandas as pd
 from datetime import datetime
 import io
 import time
 
-from supabase import create_client, Client
 
 SUPABASE_URL = "https://jhsjdvrlcvqkcqbzaqqc.supabase.co"
 SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Impoc2pkdnJsY3Zxa2NxYnphcXFjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUzMjA0MDEsImV4cCI6MjA4MDg5NjQwMX0.e5Q9kwOIH2sUIkifRIcs26c9aCYEOtoyoRSOVdrD_Gk"
@@ -1058,4 +1057,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
